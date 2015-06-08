@@ -6,8 +6,8 @@
     "SNS",
     "HipChat"
   ],
-  "website": "https://github.com/polydice/aws-sns-hipchat",
-  "repository": "https://github.com/polydice/aws-sns-hipchat",
+  "website": "https://github.com/avantcredit/aws-sns-hipchat",
+  "repository": "https://github.com/avantcredit/aws-sns-hipchat",
   "env": {
     "BUILDPACK_URL": "https://github.com/kr/heroku-buildpack-go.git",
     "HIPCHAT_AUTH_TOKEN": {
