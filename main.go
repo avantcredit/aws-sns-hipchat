@@ -31,7 +31,7 @@ func (h HipChatSender)SendMessage(room_id, message string) error {
   c.BaseURL = "https://api.hipchat.com/v1"
   req := hipchat.MessageRequest{
     RoomId:        room_id,
-    From:          "Amazon Prod Rserver",
+    From:          "Rserver",
     Message:       message,
     Color:         hipchat.ColorRed,
     MessageFormat: hipchat.FormatText,
